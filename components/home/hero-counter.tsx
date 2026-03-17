@@ -75,6 +75,7 @@ export function HeroCounter() {
 
         <div className="flex flex-col sm:flex-row items-center gap-6">
           <motion.button 
+            onClick={() => window.open("https://app.primelotto.games/auth/signup", "_blank")}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             className="w-full sm:w-auto px-12 py-5 bg-[var(--brand-primary)] text-white font-light tracking-[0.2em] uppercase text-sm transition-colors hover:bg-[var(--brand-primary)]/90"

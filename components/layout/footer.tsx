@@ -26,16 +26,16 @@ export function Footer() {
             <h4 className="font-heading font-bold text-zinc-900 mb-6">Games</h4>
             <ul className="space-y-4 text-zinc-500">
               <li>
-                <Link href="#wheel" className="hover:text-brand-primary transition-colors">Wheel of Fortune</Link>
+                <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="hover:text-brand-primary transition-colors">Wheel of Fortune</Link>
               </li>
               <li>
-                <Link href="#daily" className="hover:text-brand-primary transition-colors">Daily Lotto</Link>
+                <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="hover:text-brand-primary transition-colors">Daily Lotto</Link>
               </li>
               <li>
-                <Link href="#trivia" className="hover:text-brand-primary transition-colors">Football Trivia</Link>
+                <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="hover:text-brand-primary transition-colors">Football Trivia</Link>
               </li>
               <li>
-                <Link href="#expert" className="hover:text-brand-primary transition-colors">Religious Read and Win</Link>
+                <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="hover:text-brand-primary transition-colors">Religious Read and Win</Link>
               </li>
             </ul>
           </div>
@@ -50,7 +50,7 @@ export function Footer() {
                 <Link href="/privacy" className="hover:text-brand-primary transition-colors">Privacy Policy</Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-brand-primary transition-colors">Contact Us</Link>
+                <Link href="mailto:primelotto.info@gmail.com" className="hover:text-brand-primary transition-colors">Contact Us</Link>
               </li>
             </ul>
           </div>

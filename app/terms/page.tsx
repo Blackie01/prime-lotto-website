@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="min-h-screen bg-zinc-50 pt-16 pb-32">
+    <div className="min-h-screen bg-zinc-50 pt-16 pb-32 mt-15">
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="bg-white border text-zinc-800 border-zinc-200 rounded-3xl p-8 md:p-12 shadow-sm">
           <h1 className="font-heading font-black text-4xl mb-4 text-zinc-900">Terms of Service</h1>
@@ -27,9 +27,10 @@ export default function TermsPage() {
                 Our services operate on an auto-renewing daily subscription model:
               </p>
               <ul className="list-disc pl-6 space-y-2 mb-4">
-                <li><strong>Daily Lotto & Expert Portal:</strong> ₦100 charged daily to your mobile network account.</li>
+                <li><strong>Daily Lotto:</strong> ₦100 charged daily to your mobile network account.</li>
                 <li><strong>Football Trivia:</strong> ₦100 charged daily, with optional in-app purchases for hints and extra lives.</li>
                 <li><strong>Wheel of Fortune:</strong> ₦100 per entry/spin.</li>
+                <li><strong>Religious Read and Win:</strong> ₦100 charged daily to your mobile network account.</li>
               </ul>
               <p className="leading-relaxed">
                 By subscribing, you authorize your mobile network operator to deduct these charges from your airtime balance daily until you opt out.

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Trophy, Target, HelpCircle, BookOpen } from "lucide-react";
+import Link from "next/link";
 
 interface GameCardProps {
   title: string;
@@ -49,12 +50,12 @@ const GameCard = ({ title, description, icon, brandColor, image, delay }: GameCa
           {description}
         </p>
         
-        <div 
+        <Link target="_blank" href="https://app.primelotto.games/auth/signup" 
           className="flex items-center gap-3 font-light text-xs uppercase tracking-[0.2em] transition-colors"
           style={{ color: brandColor }}
         >
           Play Now <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-2" />
-        </div>
+        </Link>
       </div>
     </motion.div>
   );

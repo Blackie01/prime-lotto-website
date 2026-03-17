@@ -12,7 +12,7 @@ export default function Home() {
       
       <SplitSection 
         title="CONTROL YOUR LUCK FROM YOUR PHONE"
-        description="Just dial our shortcode to instantly play Daily Lotto, Wheel of Fortune, or access our Expert Portal anytime, anywhere."
+        description="Just dial our shortcode to instantly play Daily Lotto, Wheel of Fortune, Football Trivia or Religious Read and Win anytime, anywhere."
         features={[
           "Direct mobile billing - no cards needed",
           "Set-and-forget automated daily draws",

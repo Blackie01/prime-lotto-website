@@ -61,12 +61,12 @@ export function Header() {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <button className="px-6 py-3 text-xs tracking-[0.2em] uppercase font-light text-[var(--brand-primary)] transition-all hover:bg-[var(--brand-primary)]/5">
+          <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="px-6 py-3 text-xs tracking-[0.2em] uppercase font-light text-[var(--brand-primary)] transition-all hover:bg-[var(--brand-primary)]/5">
             Log In
-          </button>
-          <button className="px-8 py-3 bg-[var(--brand-primary)] text-white text-xs tracking-[0.2em] uppercase font-light transition-all hover:bg-[var(--brand-primary)]/90">
+          </Link>
+          <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="px-8 py-3 bg-[var(--brand-primary)] text-white text-xs tracking-[0.2em] uppercase font-light transition-all hover:bg-[var(--brand-primary)]/90">
             Play Now
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -114,12 +114,12 @@ export function Header() {
             </nav>
 
             <div className="flex flex-col gap-4 mt-auto mb-12">
-              <button className="w-full py-5 border border-[var(--brand-primary)]/20 text-sm tracking-[0.2em] uppercase font-light text-[var(--brand-primary)] transition-all active:bg-zinc-50">
+              <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="w-full py-5 border border-[var(--brand-primary)]/20 text-sm tracking-[0.2em] uppercase font-light text-[var(--brand-primary)] transition-all active:bg-zinc-50">
                 Log In
-              </button>
-              <button className="w-full py-5 bg-[var(--brand-primary)] text-white text-sm tracking-[0.2em] uppercase font-light transition-all active:bg-[var(--brand-primary)]/90">
+              </Link>
+              <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="w-full py-5 bg-[var(--brand-primary)] text-white text-sm tracking-[0.2em] uppercase font-light transition-all active:bg-[var(--brand-primary)]/90">
                 Play Now
-              </button>
+              </Link>
             </div>
           </motion.div>
         )}
