@@ -1,10 +1,13 @@
-'use client'
-import React from "react"
+import { HeroSection } from "@/components/homepage/hero-section";
+import { GamesGrid } from "@/components/homepage/games-grid";
+import { FeaturesSection } from "@/components/homepage/features-section";
 
-export default function LandingPage(){
-    return (
-        <section className="min-h-screen bg-[#907FB6]">
-            <div>test</div>
-        </section>
-    )
+export default function LandingPage() {
+  return (
+    <div className="bg-[#050505] min-h-screen">
+      <HeroSection />
+      <GamesGrid />
+      <FeaturesSection />
+    </div>
+  );
 }

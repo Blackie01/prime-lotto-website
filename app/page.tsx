@@ -2,12 +2,13 @@ import { HeroCounter } from "@/components/home/hero-counter";
 import { TrustBar } from "@/components/home/trust-bar";
 import { GameGrid } from "@/components/home/game-grid";
 import { SplitSection } from "@/components/home/split-section";
+import LandingPage from "./landing/page";
 
 export default function Home() {
   return (
     <>
-      <HeroCounter />
-      {/* <TrustBar /> */}
+    <LandingPage/>
+      {/* <HeroCounter />
       <GameGrid />
       
       <SplitSection 
@@ -29,7 +30,7 @@ export default function Home() {
           "Premium in-app power-ups available",
           "Dedicated shortcode *33077#"
         ]}
-      />
+      /> */}
     </>
   );
 }

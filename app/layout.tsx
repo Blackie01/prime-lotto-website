@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat, Inter, Anton } from "next/font/google";
+import { Montserrat, Inter, Anton, Outfit } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -18,6 +18,11 @@ const anton = Anton({
   subsets: ["latin"],
 });
 
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "Prime Lotto - Play to Win",
   description: "Play Daily Lotto, Football Trivia, Wheel of Fortune and win big!",
@@ -33,9 +38,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth dark">
       <body
-        className={`${inter.variable} ${montserrat.variable} ${anton.variable} font-sans antialiased bg-[var(--background)] text-zinc-900 min-h-screen flex flex-col`}
+        className={`${inter.variable} ${montserrat.variable} ${anton.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-white min-h-screen flex flex-col selection:bg-[var(--brand-primary)] selection:text-black`}
       >
         <Header />
         <VerticalNav />

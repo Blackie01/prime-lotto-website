@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
-  --foreground: #09090b; 
-  --brand-primary: #2e3192;
+  --background: #050505;
+  --foreground: #ffffff; 
+  --brand-primary: #2bc96a;
   --brand-secondary: #ff6b00;
   --brand-tertiary: #10b981; 
   --brand-quaternary: #8b5cf6;
@@ -16,11 +16,9 @@
   --color-brand: var(--brand-primary);
 
   --font-sans:
-    var(--font-inter), ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    var(--font-outfit), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-heading:
-    "Science Gothic", var(--font-montserrat), ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    var(--font-outfit), "Science Gothic", var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
@@ -49,5 +47,11 @@ h6 {
   .dune-border {
     border: 1px solid color-mix(in srgb, var(--brand-primary) 30%, transparent);
     border-radius: 0;
+  }
+  
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
   }
 }
