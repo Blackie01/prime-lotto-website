@@ -61,9 +61,9 @@ export function Header() {
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
           <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="px-6 py-2.5 text-sm font-medium text-white transition-all hover:text-white/80">
-            Log In
+            Sign Up
           </Link>
-          <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="px-6 py-2.5 rounded-full bg-[var(--brand-primary)] text-black text-sm font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
+          <Link target="_blank" href="https://app.primelotto.games/" className="px-6 py-2.5 rounded-full bg-[var(--brand-primary)] text-black text-sm font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
             Play Now
           </Link>
         </div>
@@ -114,9 +114,9 @@ export function Header() {
 
             <div className="flex flex-col gap-4 mt-auto mb-12">
               <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="w-full py-4 text-center border border-white/20 rounded-full text-base font-medium text-white transition-all hover:bg-white/5">
-                Log In
+                Sign Up
               </Link>
-              <Link target="_blank" href="https://app.primelotto.games/auth/signup" className="w-full py-4 text-center rounded-full bg-[var(--brand-primary)] text-black text-base font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
+              <Link target="_blank" href="https://app.primelotto.games/" className="w-full py-4 text-center rounded-full bg-[var(--brand-primary)] text-black text-base font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
                 Play Now
               </Link>
             </div>

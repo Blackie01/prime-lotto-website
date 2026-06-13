@@ -19,10 +19,10 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-md">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 backdrop-blur-md">
             <span className="w-2 h-2 rounded-full bg-[var(--brand-primary)] animate-pulse" />
             <span className="text-sm font-medium text-white/80">Reliable & Secure Gaming Platform</span>
-          </div>
+          </div> */}
 
           <h1 className="font-heading font-black text-5xl md:text-7xl lg:text-8xl text-white tracking-tighter leading-[1.1] mb-8">
             Control Your Luck <br className="hidden md:block" />
@@ -35,7 +35,8 @@ export function HeroSection() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <Link 
-              href="https://app.primelotto.games/auth/signup" 
+              target="_blank"
+              href="https://app.primelotto.games/" 
               className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-black bg-[var(--brand-primary)] rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(43,201,106,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
@@ -46,14 +47,13 @@ export function HeroSection() {
               </span>
             </Link>
             <div className="flex items-center gap-4 text-white/60 text-sm">
-              <div className="flex -space-x-2">
+              {/* <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-8 h-8 rounded-full border-2 border-[#050505] bg-zinc-800 flex items-center justify-center overflow-hidden">
-                    {/* Placeholder for human images */}
                     <div className="w-full h-full bg-gradient-to-br from-zinc-700 to-zinc-600" />
                   </div>
                 ))}
-              </div>
+              </div> */}
               <div className="text-left">
                 <div className="font-bold text-white">45k+ Users</div>
                 <div className="text-xs">Join the winning team</div>

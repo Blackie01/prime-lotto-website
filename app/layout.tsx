@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Montserrat, Inter, Anton, Outfit } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -28,9 +30,6 @@ export const metadata: Metadata = {
   description: "Play Daily Lotto, Football Trivia, Wheel of Fortune and win big!",
 };
 
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
-import { VerticalNav } from "@/components/layout/vertical-nav";
 
 export default function RootLayout({
   children,
@@ -43,7 +42,6 @@ export default function RootLayout({
         className={`${inter.variable} ${montserrat.variable} ${anton.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-white min-h-screen flex flex-col selection:bg-[var(--brand-primary)] selection:text-black`}
       >
         <Header />
-        <VerticalNav />
         <main className="flex-1">
           {children}
         </main>
