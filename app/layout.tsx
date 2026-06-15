@@ -3,6 +3,7 @@ import { Montserrat, Inter, Anton, Outfit } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { Providers } from "./providers";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -41,11 +42,13 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${montserrat.variable} ${anton.variable} ${outfit.variable} font-sans antialiased bg-[var(--background)] text-white min-h-screen flex flex-col selection:bg-[var(--brand-primary)] selection:text-black`}
       >
-        <Header />
-        <main className="flex-1">
-          {children}
-        </main>
-        <Footer />
+        <Providers>
+          <Header />
+          <main className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

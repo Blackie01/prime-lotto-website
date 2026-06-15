@@ -1,6 +1,7 @@
 import { HeroSection } from "@/components/homepage/hero-section";
 import { GamesGrid } from "@/components/homepage/games-grid";
 import { FeaturesSection } from "@/components/homepage/features-section";
+import { WinnersSection } from "@/components/homepage/winners";
 
 export default function LandingPage() {
   return (
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <HeroSection />
       <GamesGrid />
       <FeaturesSection />
+      <WinnersSection />
     </div>
   );
 }
