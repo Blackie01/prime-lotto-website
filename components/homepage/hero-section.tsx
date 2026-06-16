@@ -37,7 +37,7 @@ export function HeroSection() {
             <Link 
               target="_blank"
               href="https://app.primelotto.games/" 
-              className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-black bg-[var(--brand-primary)] rounded-full overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(43,201,106,0.4)]"
+              className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-black bg-[var(--brand-primary)] rounded-full overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(43,201,106,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Play Now

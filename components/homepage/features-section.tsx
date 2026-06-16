@@ -142,7 +142,7 @@ export function FeaturesSection() {
             className="w-full lg:w-1/2"
           >
             <div className="inline-flex items-center gap-2 mb-6">
-              <span className="text-purple-500 text-sm font-bold tracking-widest uppercase">
+              <span className="text-green-500 text-sm font-bold tracking-widest uppercase">
                 Wheel of Fortune
               </span>
             </div>
@@ -162,7 +162,7 @@ export function FeaturesSection() {
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
-                    <CheckCircle2 className="w-6 h-6 text-purple-500" />
+                    <CheckCircle2 className="w-6 h-6 text-green-500" />
                   </div>
                   <div>
                     <h4 className="text-white font-bold mb-1">{feature}</h4>
@@ -182,7 +182,7 @@ export function FeaturesSection() {
             className="w-full lg:w-1/2"
           >
             <div className="inline-flex items-center gap-2 mb-6">
-              <span className="text-orange-500 text-sm font-bold tracking-widest uppercase">
+              <span className="text-green-500 text-sm font-bold tracking-widest uppercase">
                 Religious Read & Win
               </span>
             </div>
@@ -203,7 +203,7 @@ export function FeaturesSection() {
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
-                    <CheckCircle2 className="w-6 h-6 text-orange-500" />
+                    <CheckCircle2 className="w-6 h-6 text-green-500" />
                   </div>
                   <div>
                     <h4 className="text-white font-bold mb-1">{feature}</h4>
