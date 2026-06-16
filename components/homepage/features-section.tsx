@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 bg-[#050505] relative overflow-hidden">
+    <section id="how-to-play" className="py-24 bg-[#050505] relative overflow-hidden">
       <div className="container mx-auto px-4">
         {/* Feature 1: Daily Lotto */}
         <div className="flex flex-col lg:flex-row items-center gap-16 mb-32">
