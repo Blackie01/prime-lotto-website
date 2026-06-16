@@ -19,11 +19,7 @@ export function FeaturesSection() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-[var(--brand-primary)]/20 blur-[100px] rounded-full" />
 
             <div className="relative glass-card aspect-square max-w-md mx-auto rounded-3xl overflow-hidden flex items-center justify-center border border-white/10">
-              {/* Human Image Placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-zinc-900 to-zinc-800" />
-              <div className="relative z-10 text-[var(--brand-primary)] text-6xl font-black opacity-20">
-                01
-              </div>
+              <img src="/images/happy-money-1.webp" alt="Daily Lotto Winner" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-110" />
             </div>
           </motion.div>
 
@@ -118,11 +114,7 @@ export function FeaturesSection() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-green-500/20 blur-[100px] rounded-full" />
 
             <div className="relative glass-card aspect-square max-w-md mx-auto rounded-3xl overflow-hidden flex items-center justify-center border border-white/10">
-              {/* Human Image Placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-bl from-zinc-900 to-zinc-800" />
-              <div className="relative z-10 text-green-500 text-6xl font-black opacity-20">
-                02
-              </div>
+             <img src="/images/football-trivia-thinking.jpg" alt="Daily Lotto Winner" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-110" />
             </div>
           </motion.div>
         </div>
@@ -139,11 +131,7 @@ export function FeaturesSection() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-purple-500/20 blur-[100px] rounded-full" />
 
             <div className="relative glass-card aspect-square max-w-md mx-auto rounded-3xl overflow-hidden flex items-center justify-center border border-white/10">
-              {/* Human Image Placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-zinc-900 to-zinc-800" />
-              <div className="relative z-10 text-purple-500 text-6xl font-black opacity-20">
-                03
-              </div>
+              <img src="/images/woman-spin-wheel.jpg" alt="Daily Lotto Winner" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-110" />
             </div>
           </motion.div>
 
@@ -235,11 +223,7 @@ export function FeaturesSection() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-orange-500/20 blur-[100px] rounded-full" />
 
             <div className="relative glass-card aspect-square max-w-md mx-auto rounded-3xl overflow-hidden flex items-center justify-center border border-white/10">
-              {/* Human Image Placeholder */}
-              <div className="absolute inset-0 bg-gradient-to-bl from-zinc-900 to-zinc-800" />
-              <div className="relative z-10 text-orange-500 text-6xl font-black opacity-20">
-                04
-              </div>
+              <img src="/images/money-religious.jpg" alt="Daily Lotto Winner" className="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-110" />
             </div>
           </motion.div>
         </div>
