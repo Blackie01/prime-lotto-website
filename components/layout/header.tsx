@@ -30,57 +30,70 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#050505]/70 backdrop-blur-md border-b border-white/5">
-      <div className="container mx-auto px-4 h-24 flex items-center justify-between">
+      <div className="container mx-auto px-4 h-28 md:h-32 flex items-center justify-between">
         <Link href="/" className="flex items-center relative z-50">
-          <Image src="/logo.png" alt="Prime Lotto Logo" width={240} height={72} className="h-10 md:h-14 w-auto object-contain" priority />
+          <Image
+            src="/logo.png"
+            alt="Prime Lotto Logo"
+            width={400}
+            height={120}
+            className="h-20 md:h-24 w-auto object-contain"
+            priority
+          />   
         </Link>
-        
+
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-white/80">
-          <Link 
-            href="/" 
-            className={`transition-all hover:text-white ${pathname === '/' ? 'text-white' : ''}`}
+          <Link
+            href="/"
+            className={`transition-all hover:text-white ${pathname === "/" ? "text-white" : ""}`}
           >
             Home
           </Link>
-          <Link 
-            href="#games" 
-            className="transition-all hover:text-white"
-          >
+          <Link href="#games" className="transition-all hover:text-white">
             Games
           </Link>
-          <Link 
-            href="#how-to-play" 
-            className="transition-all hover:text-white"
-          >
+          <Link href="#how-to-play" className="transition-all hover:text-white">
             How to Play
           </Link>
         </nav>
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center gap-4">
-          <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="px-6 py-2.5 text-sm font-medium text-white transition-all hover:text-white/80">
+          <Link
+            target="_blank"
+            href="https://app.primelotto.games/auth/signin"
+            className="px-6 py-2.5 text-sm font-medium text-white transition-all hover:text-white/80"
+          >
             Sign Up
           </Link>
-          <Link target="_blank" href="https://app.primelotto.games/" className="px-6 py-2.5 rounded-full bg-[var(--brand-primary)] text-black text-sm font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
+          <Link
+            target="_blank"
+            href="https://app.primelotto.games/"
+            className="px-6 py-2.5 rounded-full bg-[var(--brand-primary)] text-black text-sm font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]"
+          >
             Play Now
           </Link>
         </div>
 
         {/* Mobile Hamburger Button */}
-        <button 
+        <button
           className="md:hidden relative z-50 p-2 text-white"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label="Toggle Menu"
         >
-          {isMobileMenuOpen ? <X size={28} strokeWidth={1.5} /> : <Menu size={28} strokeWidth={1.5} />}
+          {isMobileMenuOpen ? (
+            <X size={28} strokeWidth={1.5} />
+          ) : (
+            <Menu size={28} strokeWidth={1.5} />
+          )}
         </button>
       </div>
 
       {/* Mobile Menu Overlay */}
       <AnimatePresence>
         {isMobileMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
@@ -88,22 +101,22 @@ export function Header() {
             className="fixed inset-0 z-40 bg-[#050505] h-max md:hidden pt-32 px-6 flex flex-col"
           >
             <nav className="flex flex-col gap-8 text-xl font-medium text-white/80 mb-12">
-              <Link 
-                href="/" 
-                className={`transition-all hover:text-white ${pathname === '/' ? 'text-white' : ''}`}
+              <Link
+                href="/"
+                className={`transition-all hover:text-white ${pathname === "/" ? "text-white" : ""}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Home
               </Link>
-              <Link 
-                href="#games" 
+              <Link
+                href="#games"
                 className="transition-all hover:text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 Games
               </Link>
-              <Link 
-                href="#how-to-play" 
+              <Link
+                href="#how-to-play"
                 className="transition-all hover:text-white"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
@@ -112,10 +125,18 @@ export function Header() {
             </nav>
 
             <div className="flex flex-col gap-4 mt-auto mb-12">
-              <Link target="_blank" href="https://app.primelotto.games/auth/signin" className="w-full py-4 text-center border border-white/20 rounded-full text-base font-medium text-white transition-all hover:bg-white/5">
+              <Link
+                target="_blank"
+                href="https://app.primelotto.games/auth/signin"
+                className="w-full py-4 text-center border border-white/20 rounded-full text-base font-medium text-white transition-all hover:bg-white/5"
+              >
                 Sign Up
               </Link>
-              <Link target="_blank" href="https://app.primelotto.games/" className="w-full py-4 text-center rounded-full bg-[var(--brand-primary)] text-black text-base font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]">
+              <Link
+                target="_blank"
+                href="https://app.primelotto.games/"
+                className="w-full py-4 text-center rounded-full bg-[var(--brand-primary)] text-black text-base font-bold transition-all hover:bg-[var(--brand-primary)]/90 hover:shadow-[0_0_20px_rgba(43,201,106,0.4)]"
+              >
                 Play Now
               </Link>
             </div>
