@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
@@ -30,10 +31,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#050505]/70 backdrop-blur-md border-b border-white/5">
       <div className="container mx-auto px-4 h-24 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 relative z-50">
-          <span className="font-heading font-black text-2xl tracking-tighter text-white">
-            PRIME<span className="text-[var(--brand-primary)]">LOTTO</span>
-          </span>
+        <Link href="/" className="flex items-center relative z-50">
+          <Image src="/logo.png" alt="Prime Lotto Logo" width={240} height={72} className="h-10 md:h-14 w-auto object-contain" priority />
         </Link>
         
         {/* Desktop Navigation */}

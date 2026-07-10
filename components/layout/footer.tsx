@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,9 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-6">
-              <span className="font-heading font-black text-2xl tracking-tighter text-white">
-                PRIME<span className="text-[var(--brand-primary)]">LOTTO</span>
-              </span>
+              <Image src="/logo.png" alt="Prime Lotto Logo" width={240} height={72} className="h-14 w-auto object-contain" />
             </Link>
             <p className="text-white/60 max-w-sm mb-6 leading-relaxed">
               Nigeria's premier Quiz and Win mobile gaming service. Play Daily Lotto, Football Trivia, and more straight from your phone.
