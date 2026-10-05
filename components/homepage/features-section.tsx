@@ -73,7 +73,7 @@ export function FeaturesSection() {
           >
             <div className="inline-flex items-center gap-2 mb-6">
               <span className="text-green-500 text-sm font-bold tracking-widest uppercase">
-                Football Trivia
+                Football Trivia Quiz
               </span>
             </div>
             <h2 className="font-heading font-black text-4xl md:text-5xl text-white mb-6 leading-tight">
