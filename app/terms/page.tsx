@@ -45,7 +45,7 @@ export default function TermsPage() {
                 <li><strong className="text-white">Religious Read and Win:</strong> ₦100 charged daily to your mobile network account.</li>
               </ul> */}
               <p className="leading-relaxed text-white/60">
-                By subscribing, you authorize PrimeLotto to deduct these charges as prescribed, until such a time that they opt out     </p>
+                By subscribing, you authorize PrimeLotto to deduct these charges as prescribed, until such a time that they opt out.    </p>
             </section>
 
             <section>
