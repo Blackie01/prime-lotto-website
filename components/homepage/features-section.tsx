@@ -152,14 +152,14 @@ export function FeaturesSection() {
             </h2>
             <p className="text-white/60 text-lg mb-8 leading-relaxed">
               Take a spin and land on Cash, Airtime, or Try Again. Each spin
-              gives you an opportunity to win from a massive pool of ₦500,000.
+              gives you an opportunity to win from a massive pool of ₦320,000.
             </p>
 
             <ul className="space-y-6">
               {[
                 "Just ₦100 per spin",
                 "Land on Cash, Airtime, or Try Again",
-                "Win from a daily pool of ₦500,000",
+                "Win from a daily pool of ₦320,000",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">

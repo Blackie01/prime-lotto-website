@@ -22,7 +22,7 @@ const games = [
   },
   {
     title: "Wheel of Fortune",
-    description: "Spin for ₦100 to land on Cash, Airtime, or Try Again. Each spin gives you an opportunity to win from a pool of ₦500,000 daily.",
+    description: "Spin for ₦100 to land on Cash, Airtime, or Try Again. Each spin gives you an opportunity to win from a pool of ₦320,000 daily.",
     color: "from-purple-500 to-pink-400",
     image: "/images/wheel-fortune.png",
     link: "https://app.primelotto.games/wheel-of-fortune"
