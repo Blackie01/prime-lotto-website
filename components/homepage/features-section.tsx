@@ -49,6 +49,7 @@ export function FeaturesSection() {
                 "Just ₦100 per ticket",
                 "Choose multiple tickets per day",
                 "Win from a daily pool of ₦320,000",
+                "Stand a chance to win cash or airtime prices",
                 "Final winner chosen instantaneously",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
@@ -92,6 +93,7 @@ export function FeaturesSection() {
                 "Just ₦100 per play",
                 "6 short-timed multiple choice questions",
                 "Answer all 6 correctly to qualify for the daily draw",
+                "Stand a chance to win cash or airtime prices",
                 "Final winner chosen daily based on fastest finger's policy",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
@@ -204,6 +206,7 @@ export function FeaturesSection() {
                 "Choose your preferred religion",
                 "6 short-timed multiple choice questions",
                 "Answer all 6 correctly to qualify for the daily draw",
+                "Stand a chance to win cash or airtime prices",
                 "Final winner chosen daily based on fastest finger's policy",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
