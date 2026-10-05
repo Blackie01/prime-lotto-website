@@ -31,9 +31,11 @@ export default function TermsPage() {
               </h2>
               <p className="leading-relaxed mb-4 text-white/60">
                 Our service operates on both an on-demand and an auto-renewing daily subscription model. 
-                <br/>
+                </p>
+                <p className="leading-relaxed mb-4 text-white/60">
                 The standard on-demand charge is ₦100 per play (per session).
-                <br/>
+                </p>
+                <p className="leading-relaxed mb-4 text-white/60">
                 The standard daily auto subscription charge is ₦100 per day, qualifying the user for a single play in a 24-hour period.
               </p>
               {/* <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
@@ -43,7 +45,7 @@ export default function TermsPage() {
                 <li><strong className="text-white">Religious Read and Win:</strong> ₦100 charged daily to your mobile network account.</li>
               </ul> */}
               <p className="leading-relaxed text-white/60">
-                By subscribing, you authorize PrimeLotto to deduct these charges as prescribed.       </p>
+                By subscribing, you authorize PrimeLotto to deduct these charges as prescribed, until such a time that they opt out     </p>
             </section>
 
             <section>
