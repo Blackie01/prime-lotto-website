@@ -90,7 +90,7 @@ export function FeaturesSection() {
               {[
                 "Just ₦100 per play",
                 "6 short-timed multiple choice questions",
-                "Pass all 6 to qualify for the daily draw",
+                "Answer all 6 correctly to qualify for the daily draw",
                 "Final winner algorithmically chosen daily",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
