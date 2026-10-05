@@ -71,7 +71,7 @@ export default function TermsPage() {
                 Eligibility
               </h2>
               <p className="leading-relaxed text-white/60">
-                You must be at least 18 years old and a resident of Nigeria to
+                You must be at least 18 years old to
                 participate in Prime Lotto games. Verification may be required
                 before any jackpot payouts are processed.
               </p>
