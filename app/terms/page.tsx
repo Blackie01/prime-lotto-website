@@ -30,7 +30,7 @@ export default function TermsPage() {
                 Subscription and Billing
               </h2>
               <p className="leading-relaxed mb-4 text-white/60">
-                Our services operate on an auto-renewing daily subscription model:
+                Our services operate on both an on-demand and an auto-renewing daily subscription model:
               </p>
               <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
                 <li><strong className="text-white">Daily Lotto:</strong> ₦100 charged daily to your mobile network account.</li>
