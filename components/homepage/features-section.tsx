@@ -48,6 +48,7 @@ export function FeaturesSection() {
               {[
                 "Just ₦100 per ticket",
                 "Choose multiple tickets per day",
+                "Win from a daily pool of ₦320,000",
                 "Final winner chosen instantaneously",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
