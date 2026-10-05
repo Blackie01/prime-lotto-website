@@ -30,7 +30,11 @@ export default function TermsPage() {
                 Subscription and Billing
               </h2>
               <p className="leading-relaxed mb-4 text-white/60">
-                Our services operate on both an on-demand and an auto-renewing daily subscription model:
+                Our services operate on both an on-demand and an auto-renewing daily subscription model. 
+                <br/>
+                The standard on-demand charge is ₦100 per play (per session).
+                <br/>
+                The standard daily auto subscription charge is ₦100 per day, qualifying the user for a single play in a 24-hour period.
               </p>
               <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
                 <li><strong className="text-white">Daily Lotto:</strong> ₦100 charged daily to your mobile network account.</li>
