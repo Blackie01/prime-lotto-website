@@ -36,12 +36,12 @@ export default function TermsPage() {
                 <br/>
                 The standard daily auto subscription charge is ₦100 per day, qualifying the user for a single play in a 24-hour period.
               </p>
-              <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
+              {/* <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
                 <li><strong className="text-white">Daily Lotto:</strong> ₦100 charged daily to your mobile network account.</li>
                 <li><strong className="text-white">Football Trivia:</strong> ₦100 charged daily, with optional in-app purchases for hints and extra lives.</li>
                 <li><strong className="text-white">Wheel of Fortune:</strong> ₦100 per entry/spin.</li>
                 <li><strong className="text-white">Religious Read and Win:</strong> ₦100 charged daily to your mobile network account.</li>
-              </ul>
+              </ul> */}
               <p className="leading-relaxed text-white/60">
                 By subscribing, you authorize your mobile network operator to deduct these charges from your airtime balance daily until you opt out.
               </p>
