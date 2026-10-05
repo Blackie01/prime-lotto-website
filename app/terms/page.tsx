@@ -14,7 +14,7 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-[var(--brand-primary)] font-medium mb-10 tracking-wider text-sm uppercase">
-            Last updated: March 2026
+            Last updated: October 2026
           </p>
 
           <div className="space-y-12">

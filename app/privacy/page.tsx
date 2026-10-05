@@ -11,7 +11,7 @@ export default function PrivacyPage() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="glass-card text-white/80 rounded-3xl p-8 md:p-12 shadow-sm">
           <h1 className="font-heading font-black text-4xl mb-4 text-white">Privacy Policy</h1>
-          <p className="text-[var(--brand-primary)] font-medium mb-10 tracking-wider text-sm uppercase">Last updated: March 2026</p>
+          <p className="text-[var(--brand-primary)] font-medium mb-10 tracking-wider text-sm uppercase">Last updated: October 2026</p>
 
           <div className="space-y-12">
             <section>
