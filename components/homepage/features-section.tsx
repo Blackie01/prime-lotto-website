@@ -48,7 +48,7 @@ export function FeaturesSection() {
               {[
                 "Just ₦100 per ticket",
                 "Choose multiple tickets per day",
-                "Daily midnight result announcements",
+                "Final winner chosen instantaneously",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
@@ -160,6 +160,7 @@ export function FeaturesSection() {
                 "Just ₦100 per spin",
                 "Land on Cash, Airtime, or Try Again",
                 "Win from a daily pool of ₦320,000",
+                "Final winner chosen instantaneously",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
