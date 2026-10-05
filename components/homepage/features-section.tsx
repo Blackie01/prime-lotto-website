@@ -94,7 +94,7 @@ export function FeaturesSection() {
                 "6 short-timed multiple choice questions",
                 "Answer all 6 correctly to qualify for the daily draw",
                 "Stand a chance to win cash or airtime prizes",
-                "Final winner chosen daily based on fastest finger's policy",
+                "Final winner chosen daily based on fastest finger policy",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
@@ -207,7 +207,7 @@ export function FeaturesSection() {
                 "6 short-timed multiple choice questions",
                 "Answer all 6 correctly to qualify for the daily draw",
                 "Stand a chance to win cash or airtime prizes",
-                "Final winner chosen daily based on fastest finger's policy",
+                "Final winner chosen daily based on fastest finger policy",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
