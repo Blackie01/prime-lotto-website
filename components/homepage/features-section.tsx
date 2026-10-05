@@ -201,7 +201,7 @@ export function FeaturesSection() {
                 "Just ₦100 per play",
                 "Choose your preferred religion",
                 "6 short-timed multiple choice questions",
-                "Algorithmically chosen winners daily",
+                "Final winner chosen daily based on fastest finger's policy",
               ].map((feature, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <div className="mt-1">
