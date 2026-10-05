@@ -38,6 +38,10 @@ export default function TermsPage() {
                 <p className="leading-relaxed mb-4 text-white/60">
                 The standard daily auto subscription charge is ₦100 per day, qualifying the user for a single play in a 24-hour period.
               </p>
+              <p className="leading-relaxed mb-4 text-white/60">
+                If a subscribed daily auto user wishes to play again after utilizing their daily entitlement, they can either top-up their cash wallet, which will enable them to play
+                as many times as they like, or they can unsubscribe and resubscribe to enable a singular play.
+              </p>
               {/* <ul className="list-disc pl-6 space-y-3 mb-4 text-white/60">
                 <li><strong className="text-white">Daily Lotto:</strong> ₦100 charged daily to your mobile network account.</li>
                 <li><strong className="text-white">Football Trivia:</strong> ₦100 charged daily, with optional in-app purchases for hints and extra lives.</li>
