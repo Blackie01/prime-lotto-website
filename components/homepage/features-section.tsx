@@ -88,6 +88,7 @@ export function FeaturesSection() {
 
             <ul className="space-y-6">
               {[
+                "Just ₦100 per play",
                 "6 short-timed multiple choice questions",
                 "Pass all 6 to qualify for the daily draw",
                 "Final winner algorithmically chosen daily",
@@ -197,6 +198,7 @@ export function FeaturesSection() {
 
             <ul className="space-y-6">
               {[
+                "Just ₦100 per play",
                 "Choose your preferred religion",
                 "6 short-timed multiple choice questions",
                 "Algorithmically chosen winners daily",
