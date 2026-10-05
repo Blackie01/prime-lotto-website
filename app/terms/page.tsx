@@ -20,7 +20,7 @@ export default function TermsPage() {
                 Introduction
               </h2>
               <p className="leading-relaxed text-white/60">
-                Welcome to Prime Lotto. By accessing our services via SMS, USSD (*20205# or *33077#), Web, or App, you agree to these terms. Prime Lotto is a suite of game-of-chance and skill-based quizzes designed for entertainment purposes.
+                Welcome to Prime Lotto. By accessing our services via SMS, USSD (*20205#), or Web, you agree to these terms. Prime Lotto is a suite of game-of-chance and skill-based quizzes designed for entertainment purposes.
               </p>
             </section>
 
