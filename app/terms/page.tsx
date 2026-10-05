@@ -30,7 +30,7 @@ export default function TermsPage() {
                 Subscription and Billing
               </h2>
               <p className="leading-relaxed mb-4 text-white/60">
-                Our services operate on both an on-demand and an auto-renewing daily subscription model. 
+                Our service operates on both an on-demand and an auto-renewing daily subscription model. 
                 <br/>
                 The standard on-demand charge is ₦100 per play (per session).
                 <br/>
