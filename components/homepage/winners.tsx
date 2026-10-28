@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const GAME_TYPES = [
   { id: "WHEEL_OF_FORTUNE", label: "Wheel of Fortune" },
-  { id: "FOOTBALL_TRIVIA", label: "Football Trivia" },
+  { id: "FOOTBALL_TRIVIA", label: "Football Trivia Quiz" },
   { id: "RELIGIOUS_READ_WIN", label: "Religious Read & Win" },
   { id: "DAILY_LOTTO", label: "Daily Lotto" },
 ];

@@ -28,7 +28,7 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Prime Lotto - Play to Win",
-  description: "Play Daily Lotto, Football Trivia, Wheel of Fortune and win big!",
+  description: "Play Daily Lotto, Football Trivia Quiz, Wheel of Fortune and win big!",
   icons: {
     icon: "/logo.png",
   },

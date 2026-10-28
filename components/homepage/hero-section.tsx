@@ -30,19 +30,31 @@ export function HeroSection() {
           </h1>
 
           <p className="text-lg md:text-xl text-white/60 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Just dial our shortcode to instantly play Daily Lotto, Wheel of Fortune, Football Trivia or Religious Read and Win anytime, anywhere.
+            Just dial our shortcode to instantly play Daily Lotto, Wheel of
+            Fortune, Football Trivia Quiz or Religious Read & Win anytime,
+            anywhere.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <Link 
+            <Link
               target="_blank"
-              href="https://app.primelotto.games/" 
+              href="https://app.primelotto.games/"
               className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-black bg-[var(--brand-primary)] rounded-full overflow-hidden transition-all hover:shadow-[0_0_40px_rgba(43,201,106,0.4)]"
             >
               <span className="relative z-10 flex items-center gap-2">
                 Play Now
-                <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <svg
+                  className="w-4 h-4 transition-transform group-hover:translate-x-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
                 </svg>
               </span>
             </Link>

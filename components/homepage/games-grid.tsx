@@ -14,7 +14,7 @@ const games = [
     link: "https://app.primelotto.games/daily-lotto"
   },
   {
-    title: "Football Trivia",
+    title: "Football Trivia Quiz",
     description: "Go through 6 short-timed multiple choice questions. Get all 6 right and stand a chance of winning big at the end of the day.",
     color: "from-green-500 to-emerald-400",
     image: "/images/messi.png",

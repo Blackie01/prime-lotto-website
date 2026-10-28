@@ -65,7 +65,7 @@ export function FeaturesSection() {
           </motion.div>
         </div>
 
-        {/* Feature 2: Football Trivia */}
+        {/* Feature 2: Football Trivia Quiz */}
         <div className="flex flex-col-reverse lg:flex-row items-center gap-16 mb-32">
           <motion.div
             initial={{ opacity: 0, x: -50 }}

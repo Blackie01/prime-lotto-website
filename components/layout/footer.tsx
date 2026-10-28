@@ -20,7 +20,7 @@ export function Footer() {
             </Link>
             <p className="text-white/60 max-w-sm mb-6 leading-relaxed">
               Nigeria's premier Quiz and Win mobile gaming service. Play Daily
-              Lotto, Football Trivia, and more straight from your phone.
+              Lotto, Football Trivia Quiz, and more straight from your phone.
             </p>
             <div className="text-sm font-medium text-white/80 bg-white/5 border border-white/10 py-2 px-4 rounded-lg inline-flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[var(--brand-primary)] animate-pulse"></span>
@@ -55,7 +55,7 @@ export function Footer() {
                   href="https://app.primelotto.games/auth/signup"
                   className="hover:text-[var(--brand-primary)] transition-colors"
                 >
-                  Football Trivia
+                  Football Trivia Quiz
                 </Link>
               </li>
               <li>
@@ -64,7 +64,7 @@ export function Footer() {
                   href="https://app.primelotto.games/auth/signup"
                   className="hover:text-[var(--brand-primary)] transition-colors"
                 >
-                  Religious Read and Win
+                  Religious Read & Win
                 </Link>
               </li>
             </ul>
