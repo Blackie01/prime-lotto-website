@@ -99,7 +99,7 @@ export function TermsClient() {
           </h1>
 
           <p className="text-zinc-400 text-sm md:text-base max-w-3xl leading-relaxed ">
-            These terms govern your participation in PrimeLotto games across all
+            These terms govern your participation while playing PrimeLotto games across all
             supported channels: USSD (
             <span className="text-white font-medium">*20205#</span>), SMS (
             <span className="text-white font-medium">20205</span>), SAT Push,
